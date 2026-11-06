@@ -1,4 +1,4 @@
-# ZTH Screen Studio 1.0.0
+# ZTH Screen Studio 1.0.1
 
 离线 ESP32 显示屏可视化编辑器。把组件拖进画布、连接页面，再导出带资源和接口文档的 Arduino 工程。
 
@@ -79,3 +79,9 @@ The initial release checks should include actual browser canvas/raster exports, 
 - [ESP32-S3 GPIO restrictions](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/gpio.html)
 
 Code: MIT, © 2026 Zeruik / TechABJ. Brand artwork and third-party libraries retain their respective rights; see LICENSE and THIRD-PARTY.md.
+
+## 1.0.1 desktop patch / 桌面图标修补
+
+应用和安装器使用独立的紫色方形标志，在任务栏与快捷方式的小尺寸下保持清晰；页面横向 Logo 不变。保留原 AppId、AppData 和 .zthscreen schema 1，1.0.0 工程可直接继续使用。生成文件中的工具版本更新为 1.0.1，生成逻辑未改变。
+
+The desktop executable and installer use a compact purple icon; the in-app wordmark is unchanged. The installer identity, AppData directory and project schema 1 remain compatible with 1.0.0. Generated comments identify version 1.0.1; generation behavior is unchanged.

@@ -1,6 +1,6 @@
 {
   "product": "ZTH Screen Studio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "electron": "45.0.0",
   "files": [
@@ -20,14 +20,19 @@
       "sha256": "615e8d87fcfc97c1c486033194dad9f29506fb1adcfc2dbdbd7d60c5a27ac689"
     },
     {
+      "path": "CHANGELOG.md",
+      "size": 822,
+      "sha256": "b5917d28992229f039a04bc06af27de351d71ed362b275d93dee4ba1475ec92f"
+    },
+    {
       "path": "LICENSE",
       "size": 1223,
       "sha256": "3e17ac721e3bf98b461d71b840b363759399992ce6a9504492a28903754e4acb"
     },
     {
       "path": "README.md",
-      "size": 8229,
-      "sha256": "2f1ee1a4940329326139ce3465c46d49a49d104d98c8cb3844cbc374fc50fb09"
+      "size": 8843,
+      "sha256": "074e9e53917ef9216d0e2bad00b4a00b3590b1763f58575ee7ab2c09569f659e"
     },
     {
       "path": "THIRD-PARTY.md",
@@ -40,14 +45,19 @@
       "sha256": "f0f5beaa72eeaef7c9bfe36cdc9687dc706679f2ee762322f5884a5cf23ef40d"
     },
     {
+      "path": "assets/zth-purple-icon.svg",
+      "size": 108811,
+      "sha256": "9ff2c2cbe71892dee8d05496d9735e261f5a60a04b70889906f6a156042281d8"
+    },
+    {
       "path": "assets/zth-purple.svg",
       "size": 108836,
       "sha256": "947257464e64e12efa5a613cfd36c0fa41223513a1a6fa4eb62abe4452f3e42d"
     },
     {
       "path": "build-product.cjs",
-      "size": 14730,
-      "sha256": "cbf4ed8f0c7b1d001fd04e29b65b294ce93ec2425cd4b710df1be37db848d448"
+      "size": 14816,
+      "sha256": "32afdcaf983a1d4b60b1707f6abf9800b76a3a95f80301d8b1a574d7a994da03"
     },
     {
       "path": "build-release.cjs",
@@ -67,7 +77,7 @@
     {
       "path": "core.js",
       "size": 31188,
-      "sha256": "efa129109b2978d92035111997ac77ccaaec07122d37a6b2e36ae0eb842f5549"
+      "sha256": "72cc790fa80af5053bc789e5306b01b661ec5b9903edcf315948a19d2e297ef3"
     },
     {
       "path": "desktop-shell.cjs",
@@ -76,8 +86,8 @@
     },
     {
       "path": "desktop/icon.ico",
-      "size": 15792,
-      "sha256": "c6ddfa41e1fbf59952f8a6f00e2501dc16aef303f93f1de5b6b4cd891b26f561"
+      "size": 21144,
+      "sha256": "5eb25d360804aa883955a4ed15e90f50876ad66816d79c623962c4921d02b00b"
     },
     {
       "path": "desktop/main.cjs",
@@ -102,7 +112,7 @@
     {
       "path": "package.json",
       "size": 195,
-      "sha256": "1ac68fbac5973eaa91725e9f5de22c6c51e2643f0becf622ce9dd261129838b0"
+      "sha256": "8f96643f64ffc6e2ef0bfa821210444dd1544026017706e8efa44e9c34b4e2da"
     },
     {
       "path": "preload.cjs",
@@ -111,8 +121,8 @@
     },
     {
       "path": "product.json",
-      "size": 449,
-      "sha256": "0703f45ec5642f0978f9361002bfb0def47b85dae4dba16a0c78ca4d8d100285"
+      "size": 499,
+      "sha256": "83d17d5cc53656b570df7c4086745f0f4a82ed97c8706b3adf505ef03d7fce16"
     },
     {
       "path": "qa/compile.cjs",
