@@ -1,0 +1,138 @@
+{
+  "product": "ZTH Screen Studio",
+  "version": "1.0.0",
+  "license": "MIT",
+  "electron": "45.0.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 201,
+      "sha256": "567d21d173d9e0e6fa246fee0e13d30c3cbc286ed0bc12e74920a4055d5359c8"
+    },
+    {
+      "path": "BUILD.md",
+      "size": 1098,
+      "sha256": "615e8d87fcfc97c1c486033194dad9f29506fb1adcfc2dbdbd7d60c5a27ac689"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1223,
+      "sha256": "3e17ac721e3bf98b461d71b840b363759399992ce6a9504492a28903754e4acb"
+    },
+    {
+      "path": "README.md",
+      "size": 8229,
+      "sha256": "2f1ee1a4940329326139ce3465c46d49a49d104d98c8cb3844cbc374fc50fb09"
+    },
+    {
+      "path": "THIRD-PARTY.md",
+      "size": 1947,
+      "sha256": "a72de16c919f41d452a05261ef5c975ca4da91b46dc0a8113e81f22388e8817f"
+    },
+    {
+      "path": "app.js",
+      "size": 38857,
+      "sha256": "f0f5beaa72eeaef7c9bfe36cdc9687dc706679f2ee762322f5884a5cf23ef40d"
+    },
+    {
+      "path": "assets/zth-purple.svg",
+      "size": 108836,
+      "sha256": "947257464e64e12efa5a613cfd36c0fa41223513a1a6fa4eb62abe4452f3e42d"
+    },
+    {
+      "path": "build-product.cjs",
+      "size": 14661,
+      "sha256": "f29cad4e346214c4f176b63822f6e41528e84f322b1520023037fef32f60d220"
+    },
+    {
+      "path": "build-release.cjs",
+      "size": 561,
+      "sha256": "5193a81a2b637bf8d1a9fdd434a6f4680dee9e0675758a4937654320cb0e81b8"
+    },
+    {
+      "path": "build-runtime/package-lock.json",
+      "size": 43623,
+      "sha256": "7f6e66e1a61d48b53ad1bcde0d8d73358a0b8f7e8944a7136f9066a139196c9b"
+    },
+    {
+      "path": "build-runtime/package.json",
+      "size": 148,
+      "sha256": "9b8d05235ee29c831eeaaa30f433317d9a9f9c4d9a9169ea43ff6496451b3c61"
+    },
+    {
+      "path": "core.js",
+      "size": 31188,
+      "sha256": "efa129109b2978d92035111997ac77ccaaec07122d37a6b2e36ae0eb842f5549"
+    },
+    {
+      "path": "desktop-shell.cjs",
+      "size": 7585,
+      "sha256": "cdea3370158fa50aa1fe7d047469bf5517d2db3868f25d015e210ddacf107303"
+    },
+    {
+      "path": "desktop/icon.ico",
+      "size": 15792,
+      "sha256": "c6ddfa41e1fbf59952f8a6f00e2501dc16aef303f93f1de5b6b4cd891b26f561"
+    },
+    {
+      "path": "desktop/main.cjs",
+      "size": 7585,
+      "sha256": "cdea3370158fa50aa1fe7d047469bf5517d2db3868f25d015e210ddacf107303"
+    },
+    {
+      "path": "desktop/preload.cjs",
+      "size": 1249,
+      "sha256": "f43b06b437e87c03a646aa89889e96acfac522fbb12cb5abd6fc6630f57c9978"
+    },
+    {
+      "path": "index.html",
+      "size": 739,
+      "sha256": "a77f226cacd7fc3938bc119defd23dae75521e4838c070fcb37ae521ea2ee377"
+    },
+    {
+      "path": "installer-template.cjs",
+      "size": 6602,
+      "sha256": "23a2b12beaa70ab4a8c5e01bdc07d9c09adcb31e050ecb0b2d8780a93375de9d"
+    },
+    {
+      "path": "package.json",
+      "size": 195,
+      "sha256": "1ac68fbac5973eaa91725e9f5de22c6c51e2643f0becf622ce9dd261129838b0"
+    },
+    {
+      "path": "preload.cjs",
+      "size": 1249,
+      "sha256": "f43b06b437e87c03a646aa89889e96acfac522fbb12cb5abd6fc6630f57c9978"
+    },
+    {
+      "path": "product.json",
+      "size": 449,
+      "sha256": "0703f45ec5642f0978f9361002bfb0def47b85dae4dba16a0c78ca4d8d100285"
+    },
+    {
+      "path": "qa/compile.cjs",
+      "size": 7477,
+      "sha256": "7317e54c1612fd3d548431c3c5dcc796ab6e6db186ed864301e1fbd1e346e0cf"
+    },
+    {
+      "path": "qa/core.cjs",
+      "size": 5416,
+      "sha256": "273a9e2330ad2a6f2c43d4d9a36f760d32df9a685b7258226a22e22fbe0d69c6"
+    },
+    {
+      "path": "qa/dom.cjs",
+      "size": 2686,
+      "sha256": "b17173b676d418828e4c262fa8f8cd766db3ff8108d01fa934ed9afd7fbedad6"
+    },
+    {
+      "path": "qa/visual.cjs",
+      "size": 4810,
+      "sha256": "e04e7516fd955b045a619cf97919c4113d718bc0c99a1ca5e88173c707ba93f1"
+    },
+    {
+      "path": "styles.css",
+      "size": 8010,
+      "sha256": "c19f6d0baecba4c04e76fc43da42efc453a861bf748aa3009373cb8004dffb87"
+    }
+  ]
+}
