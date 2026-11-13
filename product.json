@@ -1,16 +1,19 @@
 {
   "name": "ZTH Screen Studio",
   "slug": "screen-studio",
-  "version": "1.0.1",
+  "version": "3.0.0",
   "id": "Zeruik.ZTH.ScreenStudio",
   "appId": "A0F7DC5D-D926-4C11-953D-E4AFA7266391",
   "exe": "ZTH-Screen-Studio.exe",
   "dataFolder": "ZTH Screen Studio",
   "folder": "ZTHScreenStudio",
-  "releaseName": "ZTH-Screen-Studio-Windows-v1.0.1",
-  "sourceName": "zth-screen-studio-v1.0.1",
+  "releaseName": "ZTH-Screen-Studio-Windows-v3.0.0",
+  "sourceName": "zth-screen-studio-v3",
   "logo": "assets/zth-purple.svg",
   "service": "screen",
   "background": "#f5f2fb",
-  "iconSource": "assets/zth-purple-icon.svg"
+  "iconSource": "assets/zth-purple-icon.svg",
+  "creator": "理工阿白菌 / TechABJ",
+  "studio": "赋形造物工作室",
+  "parentStudio": "向阳科创工作室"
 }

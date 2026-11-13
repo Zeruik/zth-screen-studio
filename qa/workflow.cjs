@@ -1,0 +1,10 @@
+'use strict';const assert=require('node:assert/strict'),C=require('../core.js'),W=require('../screen-workflow.js');let groups=0;
+const p=C.newProject(),original=JSON.stringify(p),device={...p.device,display:'st7789_320',rotation:1};
+const fit=W.migrate(p,device);assert.deepEqual(C.dimensions(fit),{width:320,height:240});assert.equal(fit.pages[0].nodes[0].x,p.pages[0].nodes[0].x+40);assert.equal(fit.pages[0].nodes[0].w,p.pages[0].nodes[0].w);assert.equal(JSON.stringify(p),original);groups++;
+const stretch=W.migrate(p,device,'stretch'),keep=W.migrate(p,device,'keep');assert.equal(stretch.pages[0].nodes[0].w,272);assert.equal(keep.pages[0].nodes[0].x,18);assert.throws(()=>W.migrate(p,device,'crop'));groups++;
+const hist=C.createHistory(p);hist.commit(fit);assert.equal(hist.undo(),true);assert.equal(JSON.stringify(hist.get()),original);hist.redo();assert.deepEqual(hist.get(),fit);groups++;
+for(const display of Object.keys(C.DISPLAYS))for(const rotation of [0,1,2,3])for(const mode of ['contain','stretch','keep']){const dev={...p.device,display,rotation,depth:C.DISPLAYS[display].depth};assert.ok(C.validate(W.migrate(p,dev,mode)));}groups++;
+const bad=C.clone(p),pg=bad.pages[0];pg.nodes[0].x=-10;pg.nodes[0].h=1;const button=pg.nodes.find(n=>n.type==='button');button.target='';button.event='';const other={...C.clone(button),id:C.uid('widget')};pg.nodes.push(other);const r=W.audit(bad);for(const code of ['outside','text-height','no-action','button-overlap','unreachable'])assert.ok(r.issues.some(i=>i.code===code),code);assert.equal(r.edges.length,1);groups++;
+assert.deepEqual(W.sample({temperature:-100,battery:0,counter:1000000}),{temperature:-100,battery:0,counter:1000000});for(const input of [{battery:-1},{battery:101},{counter:Infinity},{temperature:NaN},{unknown:1},null])assert.throws(()=>W.sample(input));assert.deepEqual(W.sample({}),{});groups++;
+assert.equal(W.lines('a\nb',50,1),2);assert.ok(W.lines('中文中文中文',10,1)>1);assert.equal(W.audit(p).refreshMs,500);assert.ok(W.audit(p).bindings.includes('temperature'));groups++;
+console.log('PASS Screen workflow '+groups+' groups + 72 device/migration cases');

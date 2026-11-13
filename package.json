@@ -1,9 +1,8 @@
 {
   "name": "zth-screen-studio",
-  "version": "1.0.1",
-  "description": "ZTH Screen Studio",
-  "main": "desktop/main.cjs",
+  "version": "3.0.0",
   "private": true,
-  "license": "MIT",
-  "author": "Zeruik / TechABJ"
+  "main": "desktop/main.cjs",
+  "license": "SEE LICENSE",
+  "author": "TechABJ"
 }

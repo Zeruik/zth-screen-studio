@@ -15,3 +15,6 @@ Generated firmware uses separately installed Arduino libraries. Their code is **
 ESP32 Arduino core: [Espressif arduino-esp32](https://github.com/espressif/arduino-esp32), tested core 3.3.10. The core and its upstream components have their own LGPL and other notices. Electron, when included in a packaged desktop release, is MIT with additional Chromium/Node/third-party notices; the desktop packager must retain Electron's LICENSE and LICENSES.chromium.html.
 
 The generator was checked against pinned official header APIs, rather than assuming compatibility with an unrelated LVGL major version. It uses no LVGL dependency.
+
+
+Noto Sans SC, Copyright the Noto Project Authors, is bundled under SIL Open Font License 1.1. The unmodified font, full license and reviewed source/commit/checksums are retained in assets/fonts/. It is used locally for consistent Chinese UI and screen bitmap export; there is no font CDN.

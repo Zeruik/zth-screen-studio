@@ -1,48 +1,46 @@
 {
-  "product": "ZTH Screen Studio",
-  "version": "1.0.1",
-  "license": "MIT",
-  "electron": "45.0.0",
+  "product": "screen-studio",
+  "version": "3.0.0",
   "files": [
     {
       "path": ".gitattributes",
-      "size": 8,
-      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+      "size": 60,
+      "sha256": "71495537d9dda2380aad692f74334c44e1fd391db98eba85cb0a733c8c6d2d9a"
+    },
+    {
+      "path": ".github/workflows/native-desktop.yml",
+      "size": 2195,
+      "sha256": "730acedfe215e910dd88e702a386ad2118d0e871498a93304785fa7825f38281"
     },
     {
       "path": ".gitignore",
-      "size": 201,
-      "sha256": "567d21d173d9e0e6fa246fee0e13d30c3cbc286ed0bc12e74920a4055d5359c8"
+      "size": 158,
+      "sha256": "0557b19135ed2659e98f1dc6febbb1b7fa1b2bbaa908a254fa17cbbe43cbe11c"
     },
     {
-      "path": "BUILD.md",
-      "size": 1098,
-      "sha256": "615e8d87fcfc97c1c486033194dad9f29506fb1adcfc2dbdbd7d60c5a27ac689"
-    },
-    {
-      "path": "CHANGELOG.md",
-      "size": 822,
-      "sha256": "b5917d28992229f039a04bc06af27de351d71ed362b275d93dee4ba1475ec92f"
-    },
-    {
-      "path": "LICENSE",
-      "size": 1223,
-      "sha256": "3e17ac721e3bf98b461d71b840b363759399992ce6a9504492a28903754e4acb"
-    },
-    {
-      "path": "README.md",
-      "size": 8843,
-      "sha256": "074e9e53917ef9216d0e2bad00b4a00b3590b1763f58575ee7ab2c09569f659e"
-    },
-    {
-      "path": "THIRD-PARTY.md",
-      "size": 1947,
-      "sha256": "a72de16c919f41d452a05261ef5c975ca4da91b46dc0a8113e81f22388e8817f"
+      "path": "APP-FILES.json",
+      "size": 654,
+      "sha256": "7b30d7081b3dc4edf34b5d3bfb4160bb793529e2b2a5abe54c968d4f3aee16d6"
     },
     {
       "path": "app.js",
-      "size": 38857,
-      "sha256": "f0f5beaa72eeaef7c9bfe36cdc9687dc706679f2ee762322f5884a5cf23ef40d"
+      "size": 40152,
+      "sha256": "403be607117fd6c3907b4b334f78ee575203bc59320807e5af5b721ae2c2ca0c"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC.ttf",
+      "size": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "assets/fonts/OFL-NotoSansSC.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/SOURCE.json",
+      "size": 998,
+      "sha256": "973a2a24aff056adcb7006a2de581fd2e86369baed7b7cc59bf3de4e3180323e"
     },
     {
       "path": "assets/zth-purple-icon.svg",
@@ -56,33 +54,48 @@
     },
     {
       "path": "build-product.cjs",
-      "size": 14816,
-      "sha256": "32afdcaf983a1d4b60b1707f6abf9800b76a3a95f80301d8b1a574d7a994da03"
+      "size": 16756,
+      "sha256": "a95121af1aff7c8fb776fcb4245012ed58fcd54d226b5df6477cb08212fee49f"
     },
     {
       "path": "build-release.cjs",
-      "size": 561,
-      "sha256": "5193a81a2b637bf8d1a9fdd434a6f4680dee9e0675758a4937654320cb0e81b8"
+      "size": 498,
+      "sha256": "ec99470290b9b28020287d172dec0ad53971ff74cecb75a7f3297858574e94c2"
     },
     {
       "path": "build-runtime/package-lock.json",
-      "size": 43623,
-      "sha256": "7f6e66e1a61d48b53ad1bcde0d8d73358a0b8f7e8944a7136f9066a139196c9b"
+      "size": 46528,
+      "sha256": "c7d182d6381e9c4f3e9ce6c621367d84d73aae0d969571e1058bd94fe67aa546"
     },
     {
       "path": "build-runtime/package.json",
-      "size": 148,
-      "sha256": "9b8d05235ee29c831eeaaa30f433317d9a9f9c4d9a9169ea43ff6496451b3c61"
+      "size": 283,
+      "sha256": "31327091bda47437f74e9f1fe88dfa73be81a52dedb65b2327c0e756a2232582"
+    },
+    {
+      "path": "CI-ACTIONS.json",
+      "size": 765,
+      "sha256": "5006249a4ea880d100b20d8ea692cba13783ca92736cbe6405ad77124d6a01ec"
+    },
+    {
+      "path": "ci-native.cjs",
+      "size": 2326,
+      "sha256": "5e26003820ce107e0bbb072850acbbdf233ace56dc1eb31e817a762f85bbe465"
     },
     {
       "path": "core.js",
-      "size": 31188,
-      "sha256": "72cc790fa80af5053bc789e5306b01b661ec5b9903edcf315948a19d2e297ef3"
+      "size": 31206,
+      "sha256": "1463ced95adb080b5cda9c7125cea8a8863c03f4cb0c4d6a6f5b094dc4d8ef9e"
     },
     {
-      "path": "desktop-shell.cjs",
-      "size": 7585,
-      "sha256": "cdea3370158fa50aa1fe7d047469bf5517d2db3868f25d015e210ddacf107303"
+      "path": "cross-platform.cjs",
+      "size": 16059,
+      "sha256": "8a040e983c75c881c6b080540e77bb152257b084b47a759d502b156d22a4e225"
+    },
+    {
+      "path": "cross-runtime-lock.json",
+      "size": 4724,
+      "sha256": "a23b39acbfc674e8b36d34e0abdab5636c8b806886269898b8d3c5039251933b"
     },
     {
       "path": "desktop/icon.ico",
@@ -91,38 +104,83 @@
     },
     {
       "path": "desktop/main.cjs",
-      "size": 7585,
-      "sha256": "cdea3370158fa50aa1fe7d047469bf5517d2db3868f25d015e210ddacf107303"
+      "size": 9796,
+      "sha256": "30ffe2825cd5203df371b19cde9f2bac31d885b7ed9d2e644b07cd9d4f54bcf6"
+    },
+    {
+      "path": "desktop/platform.cjs",
+      "size": 4404,
+      "sha256": "02059fba32390cab367a0a4f5677d5ee171b1427fe0048ae803efd519781a359"
     },
     {
       "path": "desktop/preload.cjs",
-      "size": 1249,
-      "sha256": "f43b06b437e87c03a646aa89889e96acfac522fbb12cb5abd6fc6630f57c9978"
+      "size": 1669,
+      "sha256": "09e02772419b717db25ddb0b8f40593aa9387d35574c0b6d02101a37579d79fd"
+    },
+    {
+      "path": "desktop/profile-directory.cjs",
+      "size": 872,
+      "sha256": "431f3d752dff0988b978d67042be07b3f5ca5cf94407cc0f7a848f1cbcd7a1fd"
+    },
+    {
+      "path": "desktop/window-preferences.cjs",
+      "size": 3226,
+      "sha256": "bdec4a7da397bada844ee45b0978fa1c2412101d0f2b3ef14965d454cf3c80f8"
+    },
+    {
+      "path": "desktop-shell.cjs",
+      "size": 9796,
+      "sha256": "30ffe2825cd5203df371b19cde9f2bac31d885b7ed9d2e644b07cd9d4f54bcf6"
+    },
+    {
+      "path": "display-controls.css",
+      "size": 1515,
+      "sha256": "e27e097a82ba3198aa2f4b515d5431aed71c26637299f59c6c8e20e21d911be8"
+    },
+    {
+      "path": "display-controls.js",
+      "size": 4125,
+      "sha256": "713c5bfdac393968a30aa795e33c1e8ff87f3146e8ce2fa81ff368881ea03d1a"
     },
     {
       "path": "index.html",
-      "size": 739,
-      "sha256": "a77f226cacd7fc3938bc119defd23dae75521e4838c070fcb37ae521ea2ee377"
+      "size": 1132,
+      "sha256": "006d45cd11e232c893cf284b7c2fef4c92cfa037274797a16cace9af71421de1"
     },
     {
       "path": "installer-template.cjs",
-      "size": 6602,
-      "sha256": "23a2b12beaa70ab4a8c5e01bdc07d9c09adcb31e050ecb0b2d8780a93375de9d"
+      "size": 6704,
+      "sha256": "cdcbd32595311117daf731c26a21c0f938ba02f7e1af5156d2ecb9c71e713ce3"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1223,
+      "sha256": "3e17ac721e3bf98b461d71b840b363759399992ce6a9504492a28903754e4acb"
     },
     {
       "path": "package.json",
-      "size": 195,
-      "sha256": "8f96643f64ffc6e2ef0bfa821210444dd1544026017706e8efa44e9c34b4e2da"
+      "size": 156,
+      "sha256": "516510b9b34ec6cd510993d010e8bc700a5d367d53dfd3c1efcc259ab4559a86"
+    },
+    {
+      "path": "platform.cjs",
+      "size": 4404,
+      "sha256": "02059fba32390cab367a0a4f5677d5ee171b1427fe0048ae803efd519781a359"
     },
     {
       "path": "preload.cjs",
-      "size": 1249,
-      "sha256": "f43b06b437e87c03a646aa89889e96acfac522fbb12cb5abd6fc6630f57c9978"
+      "size": 1669,
+      "sha256": "09e02772419b717db25ddb0b8f40593aa9387d35574c0b6d02101a37579d79fd"
     },
     {
       "path": "product.json",
-      "size": 499,
-      "sha256": "83d17d5cc53656b570df7c4086745f0f4a82ed97c8706b3adf505ef03d7fce16"
+      "size": 617,
+      "sha256": "47244fdafcc6108f0e6c16d8fe773614297d5666b04e7929748cf24488df96a9"
+    },
+    {
+      "path": "profile-directory.cjs",
+      "size": 872,
+      "sha256": "431f3d752dff0988b978d67042be07b3f5ca5cf94407cc0f7a848f1cbcd7a1fd"
     },
     {
       "path": "qa/compile.cjs",
@@ -136,8 +194,13 @@
     },
     {
       "path": "qa/dom.cjs",
-      "size": 2686,
-      "sha256": "b17173b676d418828e4c262fa8f8cd766db3ff8108d01fa934ed9afd7fbedad6"
+      "size": 3282,
+      "sha256": "95abc90022494b7388806dc0126f623569bbf32c580c4733619cdd421691d693"
+    },
+    {
+      "path": "qa/studio-tools.cjs",
+      "size": 1257,
+      "sha256": "8cd01064e99e043eec2470beac7d26e1e8f61a04170024248ffe454465f0e2c7"
     },
     {
       "path": "qa/visual.cjs",
@@ -145,9 +208,89 @@
       "sha256": "e04e7516fd955b045a619cf97919c4113d718bc0c99a1ca5e88173c707ba93f1"
     },
     {
+      "path": "qa/workflow.cjs",
+      "size": 2147,
+      "sha256": "0de186a051bc9e3b19cb71b01c3aa43917c0b30965a1d4e574d5936791a405ef"
+    },
+    {
+      "path": "qa-native-platform.cjs",
+      "size": 13806,
+      "sha256": "a0012ac2a4bce40780abe404b36f668ad8d54ba83f560073647a80b79316fb44"
+    },
+    {
+      "path": "qa-platform.cjs",
+      "size": 3889,
+      "sha256": "a1031be92cb018510b58318b696f4cf322b6022e85bbab864414768d7e4c5fd8"
+    },
+    {
+      "path": "qa-window-preferences.cjs",
+      "size": 3652,
+      "sha256": "272cbb53d9ed3faf6d9de4421ab0204e70cdf00e1ccf6ea3816c96a3d3002a09"
+    },
+    {
+      "path": "README.md",
+      "size": 7835,
+      "sha256": "d8b9d06e06de927da9a3ea5bd6d8cfa8e4f8ce2246b6dc78b7e216d20772d55a"
+    },
+    {
+      "path": "runtime-lock.json",
+      "size": 909,
+      "sha256": "3cd619f67912e87633cba1303072cbd01b8fc8df673ac6ab8ae9c9dc3e3f3213"
+    },
+    {
+      "path": "runtime-tools.cjs",
+      "size": 6174,
+      "sha256": "ebdce59662f167985deb706c22924dd15e2afa8002020ccf2192a6cab634f84f"
+    },
+    {
+      "path": "screen-learning.js",
+      "size": 6293,
+      "sha256": "68a8fdbee81489ed4899ab638e0012933e2096d439abde543a3c7f69fd8b73c7"
+    },
+    {
+      "path": "screen-workflow.js",
+      "size": 4023,
+      "sha256": "adfc892df88bdd616e7deaa80ecc39a58c7743cae900931f4a88c4214f421194"
+    },
+    {
+      "path": "studio-tools.css",
+      "size": 1908,
+      "sha256": "ebe8ccf4d89f210e75ca6358ad72254167ff97642678fbf0d8347a5ce40f0480"
+    },
+    {
+      "path": "studio-tools.js",
+      "size": 9491,
+      "sha256": "e86a97bde38cea0c6c51860574d9604155f7d54d4fbb2f51ba4aabdd6203cfe5"
+    },
+    {
       "path": "styles.css",
       "size": 8010,
       "sha256": "c19f6d0baecba4c04e76fc43da42efc453a861bf748aa3009373cb8004dffb87"
+    },
+    {
+      "path": "THIRD-PARTY.md",
+      "size": 2238,
+      "sha256": "63e8a862a26ac63c152d45ed3e636f26de49c18c14bf7e8b2e56144488d6a69d"
+    },
+    {
+      "path": "typography.css",
+      "size": 349,
+      "sha256": "41836d27df6b3f6e65c5552ba4a53c361aa1e7d1a656b20ff4691670bd6e491c"
+    },
+    {
+      "path": "window-preferences.cjs",
+      "size": 3226,
+      "sha256": "bdec4a7da397bada844ee45b0978fa1c2412101d0f2b3ef14965d454cf3c80f8"
+    },
+    {
+      "path": "workflow-ui.css",
+      "size": 744,
+      "sha256": "83d660591e00cb66977140efd7a97667b7e065f24d7dc3f17199b550bb599daa"
+    },
+    {
+      "path": "workflow-ui.js",
+      "size": 5834,
+      "sha256": "7ed14335f45bf0c845e4e5303a230d2a4a75526e97f1e878b3c484eb7c0ec5a8"
     }
   ]
 }
