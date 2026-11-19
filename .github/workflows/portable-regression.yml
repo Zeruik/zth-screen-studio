@@ -25,5 +25,6 @@ jobs:
           node qa/core.cjs
           node qa/studio-tools.cjs
           node qa/dom.cjs
+          node qa-package-permissions.cjs
           node qa-platform.cjs
           node qa-window-preferences.cjs

@@ -6,9 +6,13 @@
 
 工程 ZIP 路径拒绝 Windows 设备名、非法字符、尾随点/空格，避免生成目标系统不能正常解压的文件。
 
+另修复 Linux 打包权限：生成的 TAR/DEB 负载和控制目录使用明确的公开读取/执行权限，不继承开发机器的私有 umask；新增 umask 077 下实际构建 DEB 的回归测试。
+
 ## 当前云实例验证 / Current cloud validation
 
 15 core groups; 288 board/display/rotation/template combinations; DOM interaction; platform and window-preference contracts passed.
+
+Additional check: node qa-package-permissions.cjs passed with a real synthetic DEB under umask 077.
 
 New portable-regression CI workflows, where present, have not yet been observed running on GitHub. They use synthetic data and do not replace native acceptance.
 
