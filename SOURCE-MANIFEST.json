@@ -14,8 +14,13 @@
     },
     {
       "path": ".github/workflows/portable-regression.yml",
-      "size": 911,
-      "sha256": "2164c74a72b11ad16e705d2720b32bb86e5b9c71ff3476ed0d84a7f7d6b0fedc"
+      "size": 957,
+      "sha256": "7f60b23d0239aaa3d87f72ace4a3be964eeb5133b0763e42db789fd6e2c46e08"
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "size": 694,
+      "sha256": "0e648ccc8f2a58f27701e3c8ebc2e0f5e63b2f2d066c10c415ab6ff53029b536"
     },
     {
       "path": ".github/workflows/windows-candidate.yml",
@@ -49,8 +54,8 @@
     },
     {
       "path": "README.md",
-      "size": 7835,
-      "sha256": "ca1706c38bbfdc35adf0983e8fefe84100c12866d5d142674c5b8fb65626d507"
+      "size": 8323,
+      "sha256": "53ccb4b91c276560ad07bfefdac9078886c4e546378da818e422a6f58d5b2014"
     },
     {
       "path": "THIRD-PARTY.md",
@@ -213,6 +218,11 @@
       "sha256": "431f3d752dff0988b978d67042be07b3f5ca5cf94407cc0f7a848f1cbcd7a1fd"
     },
     {
+      "path": "publish-release.cjs",
+      "size": 9767,
+      "sha256": "efd604c7264b4e3cb12f29a23b79b93968b0da78bd3adf0627176a3f98a556e5"
+    },
+    {
       "path": "qa-native-platform.cjs",
       "size": 15379,
       "sha256": "bd72e88fde7c764b29a20710d188afe599891f22bf394de2b40e4e1a797d9e7c"
@@ -231,6 +241,11 @@
       "path": "qa-platform.cjs",
       "size": 3889,
       "sha256": "a1031be92cb018510b58318b696f4cf322b6022e85bbab864414768d7e4c5fd8"
+    },
+    {
+      "path": "qa-publication.test.cjs",
+      "size": 2384,
+      "sha256": "ec3489f13ec1fe302c1c2568f4bb67cc21c8171fd29698761c5bf3fdcb1196b9"
     },
     {
       "path": "qa-window-preferences.cjs",
