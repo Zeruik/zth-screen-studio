@@ -1,6 +1,6 @@
 {
   "product": "screen-studio",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "files": [
     {
       "path": ".gitattributes",
@@ -10,7 +10,7 @@
     {
       "path": ".github/workflows/native-desktop.yml",
       "size": 2276,
-      "sha256": "9c5beb5cf29352f232a27411c8aada9bb0987f870562c02e3f3eda63c615d048"
+      "sha256": "ca5c1c3054f15a53057794e481754bc7f886e07b5d8ea70857c62c0793f52670"
     },
     {
       "path": ".github/workflows/portable-regression.yml",
@@ -39,13 +39,13 @@
     },
     {
       "path": "NEXT-RELEASE.md",
-      "size": 2048,
-      "sha256": "96d4deffa6511cf0fda9f1da287cde18d58059006eb2ab7f47296eb15ad2b892"
+      "size": 2063,
+      "sha256": "694421f976b586c30bb1d09ed7597c24cbfc93217ae3ffa6b1c1cc8725df9137"
     },
     {
       "path": "README.md",
       "size": 7835,
-      "sha256": "d8b9d06e06de927da9a3ea5bd6d8cfa8e4f8ce2246b6dc78b7e216d20772d55a"
+      "sha256": "ca1706c38bbfdc35adf0983e8fefe84100c12866d5d142674c5b8fb65626d507"
     },
     {
       "path": "THIRD-PARTY.md",
@@ -110,7 +110,7 @@
     {
       "path": "core.js",
       "size": 31292,
-      "sha256": "0c00c18bf5dd73f45cf8146f94e38e207c3b154a37cc524c4e865c780a2e9c30"
+      "sha256": "c5ff2fe52dd120eb9cfd8c6eeaf74b1eda34d65665a97fb19ead4b5a1c6697ba"
     },
     {
       "path": "cross-platform.cjs",
@@ -180,7 +180,7 @@
     {
       "path": "package.json",
       "size": 156,
-      "sha256": "516510b9b34ec6cd510993d010e8bc700a5d367d53dfd3c1efcc259ab4559a86"
+      "sha256": "57f00bba047d4d99765d756b64350717cad8d8f1f110053fb0fb3746b8cb0e41"
     },
     {
       "path": "platform.cjs",
@@ -195,7 +195,7 @@
     {
       "path": "product.json",
       "size": 617,
-      "sha256": "47244fdafcc6108f0e6c16d8fe773614297d5666b04e7929748cf24488df96a9"
+      "sha256": "e1cfd5447cbd5ef73c3004c57ddd026debe5b6d3a878f31dbf24d9e3b3d50364"
     },
     {
       "path": "profile-directory.cjs",

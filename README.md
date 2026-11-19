@@ -1,4 +1,4 @@
-# ZTH Screen Studio 3.0.0
+# ZTH Screen Studio 3.0.1
 
 从多页界面设计，到可编译 ESP32 显示工程。
 
