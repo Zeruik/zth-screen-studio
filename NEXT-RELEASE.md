@@ -12,7 +12,7 @@
 
 15 core groups; 288 board/display/rotation/template combinations; DOM interaction; platform and window-preference contracts passed.
 
-Additional check: node qa-package-permissions.cjs passed with a real synthetic DEB under umask 077.
+Additional checks: node qa-package-permissions.cjs passed with a real synthetic DEB under umask 077. Actual Linux x64 TAR and DEB builds passed using checksum-pinned runtimes; SHA256SUMS and installed payload permissions were verified. These are validation builds with the current version number, not next-version release assets. No GUI/install lifecycle acceptance was performed.
 
 New portable-regression CI workflows, where present, have not yet been observed running on GitHub. They use synthetic data and do not replace native acceptance.
 
